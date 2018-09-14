@@ -23,7 +23,7 @@ global class TH_Assignments {
      * Internal class to return counts of the trailhead assignments for the current user.
      * <p>Used in pagination</p>
      **/
-    class AssignmentCounts {
+    global class AssignmentCounts {
         @AuraEnabled public Integer numBadgeAssignments;
         @AuraEnabled public Integer numTrailmixAssignments;
         @AuraEnabled public Integer totalAssignments;
