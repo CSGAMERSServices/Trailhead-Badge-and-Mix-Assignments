@@ -28,6 +28,28 @@ and a Lightning Out tab (found under `VF Trailhead Assignments` under the app la
 * [myT_Assignments](mdapi/myT_Assignments.page) - Visualforce Page using Lightning Out
    * [myT_Assigned_Container](mdapi/myT_Assigned_Container.app) - Application that defines the Lightning Out Dependencies.
 
+# Install with Salesforce DX
+
+**1.** Install the latest version of the [Trail Tracker app exchange app - by Trailhead](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EFpAtUAL)
+
+	sfdx force:package:install --package 04t36000001DzsaAAC -u testTrailhead -r -w 30
+
+**2.** Then push the code to the scratch org:
+
+**3.** Assign the permissionSet `TH_TrailheadBadgeAndMixParticipant ` to your current user
+
+For any users that need access to the Lightning out and Lightning pages
+
+	sfdx force:user:permset:assign -u testTrailhead -n TH_TrailheadBadgeAndMixParticipant
+
+**4.** open the org
+
+	sfdx force:org:open -u testTrailhead
+	
+**5.** Setup Trail Tracker
+
+
+
 ## TODOs:
 
 * I fixed the pagination issue in apex, but should be tested more. (Deleting the items from the list was failing, so I implemented a splice instead)
