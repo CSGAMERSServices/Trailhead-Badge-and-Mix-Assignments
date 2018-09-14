@@ -57,7 +57,7 @@
                 <name>upcomingEventWindow</name>
                 <value>14</value>
             </componentInstanceProperties>
-            <componentName>myT_AssignedTrailsAndBadges</componentName>
+            <componentName>TH_AssignedTrailsAndBadges</componentName>
         </componentInstances>
         <componentInstances>
             <componentInstanceProperties>
@@ -72,7 +72,7 @@
                 <name>upcomingEventWindow</name>
                 <value>7</value>
             </componentInstanceProperties>
-            <componentName>myT_AssignedTrailsAndBadges</componentName>
+            <componentName>TH_AssignedTrailsAndBadges</componentName>
         </componentInstances>
         <componentInstances>
             <componentInstanceProperties>
@@ -87,7 +87,7 @@
                 <name>upcomingEventWindow</name>
                 <value>7</value>
             </componentInstanceProperties>
-            <componentName>myT_AssignedTrailsAndBadges</componentName>
+            <componentName>TH_AssignedTrailsAndBadges</componentName>
         </componentInstances>
         <componentInstances>
             <componentName>home:assistant</componentName>
