@@ -36,6 +36,8 @@ and a Lightning Out tab (found under `VF Trailhead Assignments` under the app la
 
 **2.** Then push the code to the scratch org:
 
+	sfdx force:source:push -u testTrailhead
+
 **3.** Assign the permissionSet `TH_TrailheadBadgeAndMixParticipant ` to your current user
 
 For any users that need access to the Lightning out and Lightning pages
@@ -51,6 +53,8 @@ For any users that need access to the Lightning out and Lightning pages
 
 
 ## TODOs:
+
+* Support new request: Support Trails (only TrailMixes and Badges currently supported)
 
 * I fixed the pagination issue in apex, but should be tested more. (Deleting the items from the list was failing, so I implemented a splice instead)
 
