@@ -102,3 +102,4 @@ faster for loading the home screen fast as it won't be touched often.
 
 * migrate the code from the controller of the TH_AssignedEntry to helpers. (I understand it is more in-line, but it is better practice. I'll leave it to your judgement.
 
+* Add design element to filter for items overdue or due in X number of days
