@@ -1,8 +1,8 @@
 # Overview
 
-Provide a list of the current trailhead badges and trailmixes assigned to the current user.
+An Aura Ligthning Compoment that provides a list of the current trailhead badges and trailmixes assigned to the current user. This Aura based compoment was developed for Dreamforce '18, to get access to the new Lighning Web Compoment please access this [new repo](https://github.com/SalesforceCloudServices/Trailhead-Badge-and-Mix-Assignments-LWC)
 
-Done as a Home Page Component (found under the Home_Page_Default app builder page)
+Home Page Component (found under the Home_Page_Default app builder page)
 
 ![Screenshot of Home Page Component](docs/images/2_HomePageComponent.gif)
 
