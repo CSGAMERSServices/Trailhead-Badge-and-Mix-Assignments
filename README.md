@@ -1,6 +1,6 @@
 # Overview
 
-An Aura Ligthning Compoment that provides a list of the current trailhead badges and trailmixes assigned to the current user. This Aura based compoment was developed for Dreamforce '18, to get access to the new Lighning Web Compoment please access this [new repo](https://github.com/SalesforceCloudServices/Trailhead-Badge-and-Mix-Assignments-LWC)
+An Aura Ligthning Compoment that provides a list of the current trailhead badges and trailmixes assigned to the current user. This Aura based compoment was developed for Dreamforce '18, to get access to the new Lighning Web Compoment please access this [new LWC repo](https://github.com/SalesforceCloudServices/Trailhead-Badge-and-Mix-Assignments-LWC).
 
 Home Page Component (found under the Home_Page_Default app builder page)
 
@@ -70,7 +70,7 @@ In Dev Sandbox
 
 Or if already logged into the org, add the following after your salesforce domain (to avoid logging in again)
 
-`/installPackage.apexp?p0=04t0b000001DgL7`
+`/packaging/installPackage.apexp?p0=04t0b000001DgL7`
 
 For example, if your Salesforce Home URL is:
 
@@ -78,7 +78,7 @@ https://df18-th-support-pkg-dev-ed.lightning.force.com/lightning/page/home
 
 Then the url would be:
 
-https://df18-th-support-pkg-dev-ed.lightning.force.com/installPackage.apexp?p0=04t0b000001DgL7
+https://df18-th-support-pkg-dev-ed.lightning.force.com/packaging/installPackage.apexp?p0=04t0b000001DgL7
 
 ![Screenshot of Unlocked Package Install](docs/images/installViaURL.png)
 
